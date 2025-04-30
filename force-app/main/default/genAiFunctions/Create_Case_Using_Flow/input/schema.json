@@ -1,0 +1,49 @@
+{
+  "required" : [ "caseDescription", "caseSubject", "contactEmail", "contactPhone", "firstName", "lastName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "caseDescription" : {
+      "title" : "caseDescription",
+      "description" : "Please provide the Case Description",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "caseSubject" : {
+      "title" : "caseSubject",
+      "description" : "Please provide the Case Subject",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "contactEmail" : {
+      "title" : "contactEmail",
+      "description" : "Please provide the User's Email Address",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "contactPhone" : {
+      "title" : "contactPhone",
+      "description" : "Please provide the Contact Phone Number",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "firstName" : {
+      "title" : "firstName",
+      "description" : "Please provide the User's First Name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "lastName" : {
+      "title" : "lastName",
+      "description" : "Please provide the User's Last Name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

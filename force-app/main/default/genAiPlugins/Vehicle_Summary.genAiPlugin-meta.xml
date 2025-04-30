@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>This topic handles user inquiries about vehicle summaries, including details and specifications.</description>
+    <developerName>Vehicle_Summary</developerName>
+    <genAiFunctions>
+        <functionName>Vehicle_Record_Summarize_Flow</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Gather as much information as possible from the user by asking clarifying questions about the vehicle they are interested in.</description>
+        <developerName>instruction_gatherasmu0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_gatherasmu0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If a user asks for vehicle details, provide a summary of the vehicle including make, model, year, and key specifications.</description>
+        <developerName>instruction_ifauserask1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifauserask1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Offer options to look up vehicle details by either VIN or license plate number.</description>
+        <developerName>instruction_offeroptio2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_offeroptio2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When searching for vehicle information, include the vehicle&apos;s make and model in the search query.</description>
+        <developerName>instruction_whensearch3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whensearch3</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Vehicle Summary</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to provide summaries and specifications about vehicles based on user requests.</scope>
+</GenAiPlugin>

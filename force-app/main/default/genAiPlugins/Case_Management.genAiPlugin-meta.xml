@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>This topic handles the creation of new cases for users. It includes gathering necessary information, initiating the case creation process, and showing the Response.</description>
+    <developerName>Case_Management</developerName>
+    <genAiFunctions>
+        <functionName>Create_Case_Using_Flow</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Always gather as much information as possible from the user by asking clarifying questions.</description>
+        <developerName>instruction_alwaysgath0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_alwaysgath0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If a user does not have their repair number or email, ask if they&apos;d like to escalate to an agent or create a case.</description>
+        <developerName>instruction_ifauserdoe1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifauserdoe1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Once the customer provides their details, ensure the case is created in the system.</description>
+        <developerName>instruction_oncethecus2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_oncethecus2</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Case Management</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to assist users in creating new cases. You should gather all required information and ensure the case is properly initiated.</scope>
+</GenAiPlugin>

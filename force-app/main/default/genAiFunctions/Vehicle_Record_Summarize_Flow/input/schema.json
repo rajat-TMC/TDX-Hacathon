@@ -1,0 +1,21 @@
+{
+  "required" : [ "vehicleId", "vehicleName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "vehicleId" : {
+      "title" : "vehicleId",
+      "description" : "Please Provide the Vehicle Id",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "vehicleName" : {
+      "title" : "vehicleName",
+      "description" : "Please provide the vehicle Name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
